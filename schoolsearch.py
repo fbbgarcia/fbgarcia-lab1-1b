@@ -192,7 +192,7 @@ def count_students_by_classroom(students):
         exit(1)
 
     for classroom in sorted(classroom_counts.keys()):
-        print(f"{classroom+101}: {classroom_counts[classroom]}")
+        print(f"{(classroom+101)}: {classroom_counts[classroom]}")
 
 
 def find_students_by_classroom(students, classroom):
@@ -358,7 +358,7 @@ while True:
     elif user_input.startswith('I') or user_input.startswith('Info'):
         if user_input.endswith("C") or user_input.endswith("Classrooms"):
             count_students_by_classroom(students)
-        else:
+        elif user_input in ['I', 'Info']:
             count_students_by_grade(students)
 
     elif user_input in ['Q', 'Quit']:
@@ -403,7 +403,7 @@ while True:
             calculate_ss_bus(students)
 
         else:
-            calculate_average(students)
+            print("Unrecognized command. Please try again.")
 
 
     else:

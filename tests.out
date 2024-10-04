@@ -1,0 +1,231 @@
+/usr/local/bin/python3.11 /Users/franchescagarcia/PycharmProjects/fbgarcia-lab1-1b/schoolsearch.py
+Enter command: S: WORBINGTON
+WORBINGTON,DEEDRA,4,112,CHIONCHIO,PERLA
+Enter command: S: DORY
+Enter command: Student: WORBINGTON
+WORBINGTON,DEEDRA,4,112,CHIONCHIO,PERLA
+Enter command: Student: DORY
+Enter command: S: WORBINGTON B
+WORBINGTON,DEEDRA,53
+Enter command: S: DORY B
+Enter command: Student: WORBINGTON B
+WORBINGTON,DEEDRA,53
+Enter command: Student: DORY B
+Enter command: S: WORBINGTON Bus
+WORBINGTON,DEEDRA,53
+Enter command: S: DORY Bus
+Enter command: Student: WORBINGTON Bus
+WORBINGTON,DEEDRA,53
+Enter command: Student: DORY Bus
+Enter command: T: FAFARD
+COOKUS,XUAN
+ELHADDAD,SHANTE
+SWEDLUND,SHARRI
+CIGANEK,MANIE
+COVINGTON,TOMAS
+EARLY,TORY
+LINHART,LELA
+Enter command: T: RAY
+Enter command: Teacher: FAFARD
+COOKUS,XUAN
+ELHADDAD,SHANTE
+SWEDLUND,SHARRI
+CIGANEK,MANIE
+COVINGTON,TOMAS
+EARLY,TORY
+LINHART,LELA
+Enter command: Teacher: RAY
+Enter command: G: 1
+SAELEE,DANILO
+GARTH,JOHN
+Enter command: G: 10
+Enter command: Grade: 1
+SAELEE,DANILO
+GARTH,JOHN
+Enter command: Grade: 10
+Enter command: B: 56
+RACANELLO,NOEL,6,102
+VILARDO,EMMANUEL,2,104
+KRAKE,VALENTIN,6,109
+BEAN,INGER,6,111
+BUSSMANN,BILLY,2,108
+FEYEREISEN,WILFREDO,6,111
+Enter command: B: 60
+Enter command: Bus: 56
+RACANELLO,NOEL,6,102
+VILARDO,EMMANUEL,2,104
+KRAKE,VALENTIN,6,109
+BEAN,INGER,6,111
+BUSSMANN,BILLY,2,108
+FEYEREISEN,WILFREDO,6,111
+Enter command: Bus: 60
+Enter command: G: 1 H
+GARTH,JOHN,3.14,FALKER,ADOLPH,0
+Enter command: G: 10 H
+Enter command: G: 1 High
+GARTH,JOHN,3.14,FALKER,ADOLPH,0
+Enter command: G: 10 High
+Enter command: Grade: 1 H
+GARTH,JOHN,3.14,FALKER,ADOLPH,0
+Enter command: Grade: 10 H
+Enter command: Grade: 1 High
+GARTH,JOHN,3.14,FALKER,ADOLPH,0
+Enter command: Grade: 10 High
+Enter command: G: 1 Low
+SAELEE,DANILO,2.85,FALKER,ADOLPH,54
+Enter command: G: 10 Low
+Enter command: Grade: 1 L
+SAELEE,DANILO,2.85,FALKER,ADOLPH,54
+Enter command: Grade: 10 L
+Enter command: Grade: 1 Low
+SAELEE,DANILO,2.85,FALKER,ADOLPH,54
+Enter command: Grade: 10 Low
+Enter command: A: 2
+2.95
+Enter command: A: 12
+Enter command: Average: 2
+2.95
+Enter command: Average: 12
+Enter command: I
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+Enter command: Info
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+Enter command: Q
+Quitting the program.
+
+Process finished with exit code 0
+Enter command: Quit
+Quitting the program.
+
+Process finished with exit code 0
+Enter command: Hi
+Unrecognized command. Please try again.
+Enter command:
+Enter command: C: 106 S
+ZAPPAVIGNA,ELLIOTT
+FRIEDSTROM,REED
+Enter command: Classroom: 106 S
+ZAPPAVIGNA,ELLIOTT
+FRIEDSTROM,REED
+Enter command: C: 106 Students
+ZAPPAVIGNA,ELLIOTT
+FRIEDSTROM,REED
+Enter command: Classroom: 106 Students
+ZAPPAVIGNA,ELLIOTT
+FRIEDSTROM,REED
+Enter command: C: 100 S
+Enter command: Classroom: 100 S
+Enter command: C: 100 Students
+Enter command: Classroom: 100 Students
+Enter command: C: 106 T
+BODZIONY,LUZ
+Enter command: Classroom: 106 T
+BODZIONY,LUZ
+Enter command: C: 106 Teachers
+BODZIONY,LUZ
+Enter command: Classroom: 106 Teachers
+BODZIONY,LUZ
+Enter command: C: 100 T
+Enter command: Classroom: 100 T
+Enter command: C: 100 Teachers
+Enter command: Classroom: 100 Teachers
+Enter command: G: 1 T
+FALKER,ADOLPH,103
+Enter command: Grade: 1 T
+FALKER,ADOLPH,103
+Enter command: G: 1 Teachers
+FALKER,ADOLPH,103
+Enter command: Grade: 1 Teachers
+FALKER,ADOLPH,103
+Enter command: G: 10 T
+Enter command: Grade: 10 T
+Enter command: G: 10 Teachers
+Enter command: Grade: 10 Teachers
+Enter command: I C
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+Enter command: Info C
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+Enter command: I Classrooms
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+Enter command: Info Classrooms
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+Enter command: SS G
+SSgrade: 0.0072, SSE: 1.0450, k = 5, n = 60
+Enter command: Sum of Squares G
+SSgrade: 0.0072, SSE: 1.0450, k = 5, n = 60
+Enter command: SS Grade
+SSgrade: 0.0072, SSE: 1.0450, k = 5, n = 60
+Enter command: Sum of Squares Grade
+SSgrade: 0.0072, SSE: 1.0450, k = 5, n = 60
+Enter command: SS T
+SSteacher: 0.0677, SSE: 0.9539, k = 12, n = 60
+Enter command: Sum of Squares T
+SSteacher: 0.0677, SSE: 0.9539, k = 12, n = 60
+Enter command: SS Teacher
+SSteacher: 0.0677, SSE: 0.9539, k = 12, n = 60
+Enter command: Sum of Squares Teacher
+SSteacher: 0.0677, SSE: 0.9539, k = 12, n = 60
+Enter command: SS B
+SSbus: 0.0244, SSE: 0.7427, k = 6, n = 60
+Enter command: Sum of Squares B
+SSbus: 0.0244, SSE: 0.7427, k = 6, n = 60
+Enter command: SS Bus
+SSbus: 0.0244, SSE: 0.7427, k = 6, n = 60
+Enter command: Sum of Squares Bus
+SSbus: 0.0244, SSE: 0.7427, k = 6, n = 60
