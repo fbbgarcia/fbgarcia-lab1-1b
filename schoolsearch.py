@@ -60,7 +60,7 @@ def find_students_by_lastname(students, last_name):
     found_students = [s for s in students if s['last_name'].lower() == last_name.lower()]
     for student in found_students:
         teacher = [t for t in teachers if t['classroom'] == student['classroom']]
-        teacher_names = ', '.join([f"{t['teacher_last_name']},{t['teacher_first_name']}" for t in teacher])
+        teacher_names = ','.join([f"{t['teacher_last_name']},{t['teacher_first_name']}" for t in teacher])
         print(f"{student['last_name']},{student['first_name']},{student['grade']},{student['classroom']},{teacher_names}")
 
 
@@ -97,12 +97,12 @@ def find_students_by_grade_gpa(students, grade, find_highest=True):
     if find_highest:
         high_student = max(students_in_grade, key=lambda s: s['gpa'])
         teacher = [t for t in teachers if t['classroom'] == high_student['classroom']]
-        teacher_names = ', '.join([f"{t['teacher_last_name']},{t['teacher_first_name']}" for t in teacher])
+        teacher_names = ','.join([f"{t['teacher_last_name']},{t['teacher_first_name']}" for t in teacher])
         print(f"{high_student['last_name']},{high_student['first_name']},{high_student['gpa']},{teacher_names},{high_student['bus']}")
     else:
         low_student = min(students_in_grade, key=lambda s: s['gpa'])
         teacher = [t for t in teachers if t['classroom'] == low_student['classroom']]
-        teacher_names = ', '.join([f"{t['teacher_last_name']},{t['teacher_first_name']}" for t in teacher])
+        teacher_names = ','.join([f"{t['teacher_last_name']},{t['teacher_first_name']}" for t in teacher])
         print(f"{low_student['last_name']},{low_student['first_name']},{low_student['gpa']},{teacher_names},{low_student['bus']}")
 
 
@@ -126,6 +126,7 @@ def calculate_average(students):
         print('Invalid GPA.')
         exit(1)
 
+
 def calculate_average_grade(students, grade):
     students_in_grade = [s for s in students if s['grade'] == grade]
     if len(students_in_grade) == 0:
@@ -137,6 +138,7 @@ def calculate_average_grade(students, grade):
         print('Invalid GPA.')
         exit(1)
 
+
 def calculate_average_teacher(students, teacher):
     students_with_teacher = [s for s in students if s['classroom'] == teacher['classroom']]
     if len(students_with_teacher) == 0:
@@ -147,6 +149,7 @@ def calculate_average_teacher(students, teacher):
     except ValueError:
         print('Invalid GPA.')
         exit(1)
+
 
 def calculate_average_bus(students, bus):
     students_on_bus = [s for s in students if s['bus'] == bus]
