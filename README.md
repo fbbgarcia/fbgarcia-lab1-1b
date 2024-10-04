@@ -1,7 +1,7 @@
 # CSC 365 Lab 1 Part b: Why Databases?
 This program searches a list.txt and teacher.txt file by user command and outputs the results of the search.
 
-New Commands:
+## New Commands:
 [] indicate optional input
 - C[lassroom]: CLASSROOM# S[tudents]|T[eachers]
   - returns the names of each student found assigned to it or teacher found teaching in it
